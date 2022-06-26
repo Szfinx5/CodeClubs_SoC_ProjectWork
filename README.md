@@ -2,6 +2,11 @@
 
 ## Team members
 
+- **Camilla Santos**:   https://github.com/millagmc
+- **Eda Burns**   : https://github.com/smurfeda
+- **Gabor Havasi**  https://github.com/Szfinx5
+- **Maria Roberta Moller**   https://github.com/maroaraujo
+
 ## About the App
 
 CodeClub App is the place where all the School of Code students can come together and study together!
