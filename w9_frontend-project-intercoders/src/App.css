@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.puzzle {
+    position: absolute;
+    right: 20px;
+    max-width: 15%;
+    top: 20px;
+}
+
+
+

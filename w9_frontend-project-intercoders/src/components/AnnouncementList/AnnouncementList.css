@@ -1,0 +1,20 @@
+.Container-card{
+    display: flex;
+    margin: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+    background-color:#3A3A3C;
+    height: 130px ;
+    border-radius: 8px;
+}
+
+
+.Announcement-card{
+    font-size:10px;
+    background-color: #FFAB01;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    width: 100px ;
+    }

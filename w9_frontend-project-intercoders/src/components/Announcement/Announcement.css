@@ -1,0 +1,10 @@
+.Main--container{
+    display: block;
+}
+.Announcement-container{
+    color: white;
+    background-color: #3A3A3C;
+    border-radius: 8px;
+    display: flex;
+ 
+}

@@ -1,0 +1,46 @@
+
+.CategoriesList--container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.room{
+display: flex;
+flex-direction: column;
+vertical-align: top;
+}
+/* .topic--categories{
+justify-content: space-between;
+padding: 5px;
+} */
+
+.input-student{
+    vertical-align: top;
+    
+   
+} 
+.input-student>input{
+    margin-right: 5px;
+}
+
+.volunteer{
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-left: 5rem;
+    
+}
+.volunteer>h4{
+    margin: 0;
+}
+.deleteButton{
+background-color: #3A3A3C;
+color: antiquewhite;
+border-color: grey;
+border-radius: 15px;
+}

@@ -1,0 +1,70 @@
+.card--organizer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+}
+
+.card--organizer>* {
+    flex: 1 1 600px;
+
+}
+
+.image-course {
+    margin-left: 30px;
+    width: 90px;
+    text-align: center;
+}
+
+.topic--categories {
+    display: flex;
+    margin: 5px;
+    background-color: #3A3A3C;
+    border-radius: 10px;
+    padding: 40px 0px 20px;
+}
+
+.img {
+    height: 60px;
+    width: 70px;
+
+}
+
+.inputs {
+margin-left: 30px;;
+    display: flex;
+    align-items: start;
+    gap: 15px; 
+}
+
+.roomnumber {
+    position: relative;
+    top: -40px;
+    left: 55px;
+}
+
+ul>li {
+
+    list-style: none;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+.addstudent{
+    background-color: #3A3A3C;
+    color: white;
+    border-color: grey;
+    border-radius: 8px;
+    
+    
+}
+.addvolunteer{
+    background-color: #3A3A3C;
+    color: white;
+    border-color: grey;
+    border-radius: 8px;
+}
