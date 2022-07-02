@@ -1,13 +1,14 @@
-import React from 'react';
+import React from "react";
 import "./CategoriesList.css";
-import TopicCard from '../TopicCard/TopicCard';
+import TopicCard from "../TopicCard/TopicCard";
 
-function CategoriesList ({setkeycourses}) {
-    return (
-    <div className = "CategoriesList--container">
-    <TopicCard setkeycourses={setkeycourses}/>
+//Rendering the container for the topic cards
+function CategoriesList({ setkeycourses }) {
+  return (
+    <div className="CategoriesList--container">
+      <TopicCard setkeycourses={setkeycourses} />
     </div>
-    )
+  );
 }
 
 export default CategoriesList;

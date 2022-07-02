@@ -1,5 +1,6 @@
+//Currently the login page is not in use, the fuction will be implemented in the next version
+
 import React, { useState } from "react";
-import Axios from "axios";
 
 const Login = ({ onSubmit }) => {
   const [username, setUsername] = useState("");
