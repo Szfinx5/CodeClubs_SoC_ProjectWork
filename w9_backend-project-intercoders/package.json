@@ -16,7 +16,8 @@
     "db:resetCourseTable": "node -r dotenv/config ./db/scripts/resetCourseTable.js",
     "db:resetWaitingListTable": "node -r dotenv/config ./db/scripts/resetWaitinglistTable.js",
     "db:deleteTable": "node -r dotenv/config ./db/scripts/DeleteTables.js",
-    "db:resetAnnouncementTable": "node -r dotenv/config ./db/scripts/resetAnnouncementTable.js"
+    "db:resetAnnouncementTable": "node -r dotenv/config ./db/scripts/resetAnnouncementTable.js",
+    "db:deleteId": "node -r dotenv/config ./db/scripts/deleteId.js"
   },
   "keywords": [
     "node",

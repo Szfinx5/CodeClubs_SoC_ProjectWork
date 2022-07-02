@@ -1,5 +1,7 @@
 import { query } from "../index.js";
 
+
+//drops the table weekly manually so at the end of the week all the new tables are reset for the topic table
 const deleteSqlQuery = `DROP TABLE IF EXISTS course;`;
 
 const createSqlQuery = `CREATE TABLE IF NOT EXISTS course(

@@ -1,9 +1,10 @@
+import {addToCourse, getCourse} from "../models/models.js";
 import express from "express";
+
 const router = express.Router();
 router.use(express.json());
 
-import {addToCourse, getCourse} from "../models/models.js";
-
+// Receive post for new topics/subjects on the categories
 router.post("/", async function (req, res) {
   const body = req.body;
   console.log(body);
@@ -12,6 +13,7 @@ router.post("/", async function (req, res) {
   res.json({ success: true, payload: "The new course was added" });
 });
 
+// Receive get request of all topics/subjects
 router.get("/", async function (req, res) {
   console.log(req.query.search);
   const result = await getCourse();
