@@ -13,6 +13,9 @@ With this app, we hope that all the students can find people who are at the same
 CodeClub App is the place where all the School of Code students can come together and study together!
 School of Code students can choose the subject they would like to revise and register their interest on the site. If they would like to guide others on their learning journey, they can achieve this goal by adding their name and availability on the “Volunteer to help” section. 
 
+## Demo
+Live demo: https://codeclubs.netlify.app      
+Video tutorial: https://vimeo.com/725201751
 
 ### How the APP works (beta version)
 
@@ -63,9 +66,7 @@ Start the server
 ```
 
 
-## Demo
 
-https://vimeo.com/725201751
 
 
 ## APP Screenshots
